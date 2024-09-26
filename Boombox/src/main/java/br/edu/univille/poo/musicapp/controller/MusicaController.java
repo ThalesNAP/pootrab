@@ -25,5 +25,4 @@ public class MusicaController {
         return musicaService.createMusica(musica);
     }
 
-    // Outros métodos, como update e delete, podem ser adicionados aqui
 }
