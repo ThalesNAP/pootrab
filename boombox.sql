@@ -27,7 +27,6 @@ CREATE TABLE Musicas (
 );
 
 
--- Inserir dados na tabela Usuarios
 INSERT INTO Usuarios (nome, email, senha) VALUES
 ('João Silva', 'joao.silva@example.com', 'senha123'),
 ('Maria Souza', 'maria.souza@example.com', 'senha456'),
@@ -35,7 +34,6 @@ INSERT INTO Usuarios (nome, email, senha) VALUES
 ('Ana Pereira', 'ana.pereira@example.com', 'senha101'),
 ('Lucas Mendes', 'lucas.mendes@example.com', 'senha102');
 
--- Inserir dados na tabela Artistas
 INSERT INTO Artistas (nome, genero) VALUES
 ('Artista A', 'Pop'),
 ('Artista B', 'Rock'),
@@ -43,7 +41,6 @@ INSERT INTO Artistas (nome, genero) VALUES
 ('Artista D', 'Hip-Hop'),
 ('Artista E', 'Eletrônica');
 
--- Inserir dados na tabela Playlists
 INSERT INTO Playlists (usuario_id, nome, descricao) VALUES
 (1, 'Minhas Favoritas', 'Playlist com minhas músicas favoritas'),
 (2, 'Rock Clássico', 'Playlist de rock clássico'),
@@ -51,7 +48,6 @@ INSERT INTO Playlists (usuario_id, nome, descricao) VALUES
 (4, 'Hip-Hop Vibes', 'Melhores músicas de hip-hop'),
 (5, 'Dance Hits', 'As melhores músicas eletrônicas para dançar');
 
--- Inserir dados na tabela Musicas
 INSERT INTO Musicas (titulo, artista_id) VALUES
 ('Música 1', 1),
 ('Música 2', 1),
