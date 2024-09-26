@@ -15,5 +15,5 @@ public class Artista {
     @OneToMany(mappedBy = "artista")
     private List<Musica> musicas;
 
-    // Getters e Setters
+   
 }
