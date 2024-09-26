@@ -16,6 +16,5 @@ public class Usuario {
     @OneToMany(mappedBy = "usuario")
     private List<Playlist> playlists;
 
-    // Getters e Setters
 }
 
