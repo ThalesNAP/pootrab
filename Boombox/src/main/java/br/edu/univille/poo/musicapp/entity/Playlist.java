@@ -24,5 +24,4 @@ public class Playlist {
     )
     private List<Musica> musicas;
 
-    // Getters e Setters
 }
