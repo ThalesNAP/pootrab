@@ -20,5 +20,4 @@ public class Musica {
     @ManyToMany(mappedBy = "musicas")
     private List<Playlist> playlists;
 
-    // Getters e Setters
 }
